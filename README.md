@@ -13,8 +13,8 @@ A visual workspace for creators to plan shoots, collect references, and move pro
 
 ## Stack
 
-- Next.js 14
-- React 18
+- Next.js 16
+- React 19
 - TypeScript
 - Tailwind CSS
 - Lucide React
