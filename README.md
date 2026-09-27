@@ -2,14 +2,19 @@
 
 A visual workspace for creators to plan shoots, collect references, and move projects from idea to delivery.
 
+**Live demo:** https://lyindyin999.github.io/frameflow/
+
 ## What is inside
 
 - Visual project pipeline
 - Moodboard-style project cards
-- Task tracking
+- Task tracking and progress
 - Search
+- Project creation
 - Persistent local workspace via localStorage
 - Responsive dark UI
+- Automated TypeScript + production build checks
+- Automated GitHub Pages deployment
 
 ## Stack
 
@@ -18,6 +23,7 @@ A visual workspace for creators to plan shoots, collect references, and move pro
 - TypeScript
 - Tailwind CSS
 - Lucide React
+- GitHub Actions
 
 ## Run locally
 
@@ -29,6 +35,13 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+## Quality checks
+
+```bash
+npm run typecheck
+npm run build
+```
 
 ## Product direction
 
