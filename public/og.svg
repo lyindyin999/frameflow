@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="translate(945 30) rotate(135) scale(540)">
+      <stop stop-color="#ff4d2f" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#09090b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="translate(160 130) rotate(45) scale(500)">
+      <stop stop-color="#7b5cff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#09090b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#09090b"/>
+  <rect width="1200" height="630" fill="url(#a)"/>
+  <rect width="1200" height="630" fill="url(#b)"/>
+  <rect x="76" y="78" width="54" height="54" rx="15" fill="#f7f7f8"/>
+  <path d="M89 94h28v24H89z" fill="#09090b"/>
+  <path d="M89 102h28M98 94v8M108 94v8" stroke="#f7f7f8" stroke-width="3"/>
+  <path d="M98 108l12 6-12 6z" fill="#ff4d2f" transform="translate(0 -3)"/>
+  <text x="148" y="116" fill="#f7f7f8" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700">FrameFlow</text>
+  <text x="76" y="285" fill="#f7f7f8" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700">Keep the work moving.</text>
+  <text x="76" y="352" fill="#8d8d98" font-family="Arial, Helvetica, sans-serif" font-size="28">Creative projects, references and tasks in one visual workspace.</text>
+  <rect x="76" y="430" width="320" height="80" rx="20" fill="#111115" stroke="#2a2a30"/>
+  <text x="104" y="480" fill="#f7f7f8" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">Next.js 16 · React 19</text>
+  <rect x="414" y="430" width="245" height="80" rx="20" fill="#111115" stroke="#2a2a30"/>
+  <text x="442" y="480" fill="#f7f7f8" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">Local-first MVP</text>
+</svg>
