@@ -208,15 +208,15 @@ export default function Home() {
             </div>
 
             <div className="mt-7 space-y-1">
-              {[
+              {([
                 ["Overview", LayoutDashboard],
                 ["Projects", FolderKanban],
                 ["Moodboards", Grid2X2],
                 ["Tasks", CircleDot],
-              ].map(([label, Icon]) => (
+              ] as const).map(([label, Icon]) => (
                 <button
                   key={label as string}
-                  onClick={() => setActive(label as string)}
+                  onClick={() => setActive(label)}
                   className={`flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left text-sm transition ${
                     active === label
                       ? "bg-white/[.08] text-white"
@@ -224,7 +224,7 @@ export default function Home() {
                   }`}
                 >
                   <Icon size={17} />
-                  {label as string}
+                  {label}
                 </button>
               ))}
             </div>
